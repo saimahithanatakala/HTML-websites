@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style >
+  	.navbar{
+  		background-color: #f4511e;
+  		margin-bottom: 0;
+  		font-size: 18px;
+      color: white;
+  	}
+    .navbar-default .navbar-nav>li>a{
+      color: white;
+    }
+    .navbar-default .navbar-nav>li>a{
+    }
+  	.jumbotron{
+  		background-color: #f4511e;
+  		margin-top: 0;
+  		color: white;
+  	}
+    .glyphicon{
+      color: #f4511e;
+      font-size: 200px;
+
+    }
+    .bg-grey{
+      background-color: #f6f6f6;
+    }
+    .conatiner-fluid{
+      padding-top: 50px;
+      padding-left:60px;
+    }
+    .carousel-indicators li {
+    border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+}
+  </style>
+
+</head>
+<body>
+	<nav class="navbar navbar-default  navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#" style="color: white">Logo</a>
+				
+			</div>
+			<div class="nav navbar-nav navbar-right">
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#services">SERVICES</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#">PRICING</a></li>
+				<li><a href="#">CONTACT</a></li>
+			</div>
+		</div>
+	</nav>
+		<div class="jumbotron text-center" style="padding-bottom: 100px;padding-top: 100px;" >
+			<h1>Company</h1>
+			<p>We Specialise in blabla</p>
+			<form class="form-inline">
+        		<div class="form-group">
+     				<input type="email" class="form-control" placeholder="email" id="email">
+     				<button type="button" class="btn btn-danger">Subscribe</button>
+  				</div>
+  			</form>
+		</div>
+	<div class="container-fluid" id="about" style="padding-left: 60px; padding-top:50px;">
+    <div class="row">
+    <div class="col-sm-8" style="font-size: 20px">
+      <h2>ABOUT COMPANY PAGE</h2>
+      <br>
+      <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <br>
+      <button type="button" class="btn btn-default">Get in touch</button>
+    </div>
+    <div class="col-sm-4" style="padding-left: 30px;padding-top: 40px;">
+      <span class="glyphicon glyphicon-signal"></span>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid bg-grey" style="padding-left: 60px;padding-top: 50px;margin-top: 50px;">
+    <div class="row">
+    <div class="col-sm-4" style="padding-top: 90px;padding-left: 90px;" >
+      <span class="glyphicon glyphicon-globe"></span>
+    </div>
+    <div class="col-sm-8" style="padding-right: 110px;font-size: 20px">
+      <h2>OUR VALUES</h2>
+      <br>
+      <h4>MISSION: Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+      <br>
+      <p>VISION: Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="container-fluid" id="services">
+    <div class="text-center">
+      <h1>SERVICES</h1>
+      <p style="font-size: 20px">What We Offer</p>
+    </div>
+    <br>
+    <br>
+    <div class="row">
+    <div class="col-sm-4 text-center">
+      <span class="glyphicon glyphicon-off" style="font-size: 50px"></span>
+      <br>
+      <h2>POWER</h2>
+      <br>
+      <p style="font-size: 20px">Lorem ipsum dolor sit amet..</p>
+      <br>
+      <br>
+      <span class="glyphicon glyphicon-leaf" style="font-size: 50px"></span>
+      <br>
+      <h2>GREEN</h2>
+      <br>
+      <p style="font-size: 20px">Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4 text-center">
+      <span class="glyphicon glyphicon-heart" style="font-size: 50px"></span>
+      <br>
+      <h2>LOVE</h2>
+      <br>
+      <p style="font-size: 20px">Lorem ipsum dolor sit amet..</p>
+      <br>
+      <br>
+      <span class=" glyphicon glyphicon-certificate" style="font-size: 50px"></span>
+      <br>
+      <h2>CERTIFIED</h2>
+      <br>
+      <p style="font-size: 20px">Lorem ipsum dolor sit amet..</p>      
+    </div>
+    <div class="col-sm-4 text-center">
+      <span class="glyphicon glyphicon-lock" style="font-size: 50px"></span>
+      <br>
+      <h2>JOB DONE</h2>
+      <br>
+      <p style="font-size: 20px">Lorem ipsum dolor sit amet..</p>
+      <br>
+      <br>
+      <span class="glyphicon glyphicon-wrench" style="font-size: 50px"></span>
+      <br>
+      <h2>HARD WORK</h2>
+      <br>
+      <p style="font-size: 20px">Lorem ipsum dolor sit amet..</p>
+      
+    </div>
+
+    
+  </div>
+</div>
+<br>
+<br>
+<div class="container-fluid bg-grey">
+  <div class="text-center">
+    <h2><b>PORTFOLIO</b></h2>
+    <br>
+    <br>
+    <p style="font-size: 20px">What We Have Created</p>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-sm-4" style="padding-left: 50px">
+    <div class="thumbnail">
+        <img src="../paris.jpeg" alt="parris" style="width: 100%">
+        <div class="caption text-center"> 
+          <p style="font-size: 20px">Paris</p>
+          <p>Yes,we built paris</p>
+        </div>
+      
+    </div>      
+    </div>
+    <div class="col-sm-4">
+    <div class="thumbnail">
+      <img src="../newyork.jpeg" alt="newyork" style="width: 100%">
+      <div class="caption text-center">
+        <p style="font-size: 20px">Newyork</p>
+        <p>We built newyork</p>
+      </div>
+    </div>      
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="../sanfransicdo.jpeg" alt="sanfrancisco" style="width: 100%">
+        <div class="caption text-center">
+          <p style="font-size: 20px">San Francisco</p>
+          <p>san frans is ours</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <BR>
+  <div class="text-center">
+    <h1>WHAT OUR CUSTOMERS SAY</h1>
+  </div>
+  <br>
+  <br>
+  <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#mycarousel" data-slide-to="1"></li>
+      <li data-target="#mycarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="text-center">
+        <h3>"This company is the best. I am so happy with the result!"</h3>
+        <h3>Michael Roe, Vice President, Comment Box</h3>
+        <br>
+        <br>
+        <br>
+      </div>
+      </div>
+      <div class="item">
+        <div class="text-center">
+          <h3>"One word... WOW!!"</h3>
+          <h3>John Doe, Salesman, Rep Inc</h3>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="item">
+        <div class="text-center">
+          <h3>"Could I... BE any more happy with this company?"</h3>
+          <h3>Chandler Bing, Actor, FriendsAlot</h3>
+          <br>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
